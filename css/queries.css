@@ -118,6 +118,16 @@
     * {
         font-size: 2.083vw;
     }
+    .nav-1 div.navbar-expand-md {
+        width: 74%;
+        display: flex;
+        justify-content: end;
+    }
+    .nav-2 div.navbar-expand-md {
+        width: 33%;
+        display: flex;
+        justify-content: end;
+    }
     .arrow {
         display: none !important;
     }
@@ -148,7 +158,7 @@
     .nav-items a,
     .location p,
     .store-address .strong .c-green {
-        font-size: 1.515vw;
+        font-size: 1.1vw;
     }
 }
 
@@ -161,12 +171,12 @@
     }
     form .search input[type="text"],
     form .search input[placeholder] {
-        font-size: 1.3rem;
+        font-size: 1.1vw;
     }
     .nav-items a.nav-link,
     .location p,
     .store-address .strong .c-green {
-        font-size: 1.3rem;
+        font-size: 1.1vw;
     }
 }
 
