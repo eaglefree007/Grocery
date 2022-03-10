@@ -70,8 +70,9 @@
         top: 50%;
         width: 2.396vw;
         height: 2.396vw;
-        background-color: rgba(241, 240, 240, 0.849);
+        background-color: #fff;
         border-radius: 50%;
+        box-shadow: 0px 2px 10px #00000012;
         transform: translateY(-50%);
     }
     
