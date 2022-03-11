@@ -1,274 +1,485 @@
-    /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-    
-    @media (max-width: 1399.98px) {
-        * {
-            font-size: .833vw;
-        }
-        .profile li a p,
-        a.nav-link,
-        .store-address span.c-green,
-        .store-address .text-muted,
-        .off {
-            font-size: 1.2rem;
-        }
-        .store-address .strong {
-            font: normal normal 400 1rem "Poppins";
-        }
-        .cc-img {
-            height: 6.5rem;
-        }
-        .shop-by-category strong {
-            font-size: 1.5rem;
-        }
-    }
-    
-    @media (max-width: 991.98px) {
-        .search input[type=text],
-        .search input[placeholder],
-        .location p,
-        .lead-product,
-        .profile li a p,
-        .feature-item,
-        .store-address .strong,
-        .view-all-btn,
-        .date,
-        .user {
-            font-size: 1.3rem;
-        }
-        .feature-card-name,
-        a.nav-link,
-        a.read-more:link,
-        a.read-more:visited {
-            font-size: 1.4rem;
-        }
-        .item-details li img {
-            width: 1.8rem;
-        }
-        .review,
-        .price p del {
-            font-size: 1.5rem;
-        }
-        .off {
-            width: 60px;
-            height: 22px;
-            font-size: 1.5rem;
-        }
-        .stories .card-title {
-            font-size: 1.5rem;
-        }
-        .data-search {
-            font-size: 1.3rem;
-        }
-        .footer a {
-            font-size: 1.2rem;
-        }
-        .copyright {
-            font-size: 1.3rem;
-        }
-        .arrow {
-            display: block;
-        }
-    }
-    
-    @media (max-width: 767.98px) {
-        .nav-2 {
-            margin-top: 7.7rem!important;
-            width: max-content!important;
-            display: grid;
-            width: 100%!important;
-        }
-        .products.w-auto,
-        .store-location.w-auto {
-            width: 100% !important;
-            align-items: center!important;
-            padding: 0!important;
-            margin: 0!important;
-        }
-        .nav-2 .products {
-            width: 100%;
-        }
-        a.nav-link {
-            font-size: 2rem;
-        }
-        .store-address {
-            width: 100%;
-            text-align: center;
-        }
-        .lead-product {
-            font-size: 2rem;
-        }
-        .off,
-        .store-address .strong {
-            font-size: 1.7rem;
-        }
-        .store-address span.c-green {
-            font-size: 1.5rem;
-        }
-        .cc-img {
-            height: 9.5rem;
-        }
-        .price p del,
-        .shop-by-category strong {
-            font-size: 2.2rem;
-        }
-        .view-all-btn {
-            width: 12.375rem;
-            height: 100%;
-            font-size: 1.7rem;
-        }
-        .feature-card-name {
-            font-size: 2.4rem;
-        }
-        .price p strong,
-        .feature-item {
-            font-size: 2.5rem;
-        }
-        .item-details li img {
-            width: 2.8rem;
-        }
-        .add-cart-btn img {
-            width: 3.313rem;
-        }
-        .order-btn {
-            font-size: 2rem;
-            width: 80px;
-        }
-        .add-cart-btn {
-            font-size: 2.5rem;
-            width: 60%;
-        }
-        .item-pic {
-            width: 17.938rem;
-            height: 17.938rem;
-        }
-        .footer .h5,
-        .date,
-        .user {
-            font-size: 1.8rem;
-        }
-        .story-item-data {
-            font-size: 3rem;
-        }
-        .review {
-            font-size: 2.3rem;
-        }
-        a.read-more:link,
-        a.read-more:visited {
-            font-size: 2rem;
-        }
-        .stories .card-title {
-            font-size: 2rem;
-            font-weight: 500;
-        }
-        .data-search {
-            font-size: 1.6rem;
-        }
-        .footer-brand {
-            display: flex !important;
-            justify-content: center;
-        }
-        .footer ul.card li a {
-            display: flex!important;
-            justify-content: center;
-        }
-        .footer ul.list-unstyled li {
-            display: flex!important;
-            justify-content: center;
-        }
-        .app-redirects-logos {
-            margin: 0 auto!important;
-        }
-        .footer .h5 {
-            font-size: 1.8rem;
-        }
-        .footer a {
-            font-size: 1.5rem;
-        }
-        .arrow {
-            display: none;
-        }
-    }
-    
-    @media (max-width: 575.98px) {
-        .footer-brand img,
-        .navbar-brand img {
-            width: 25vw;
-        }
-        .nav-2 {
-            margin-top: 12rem !important;
-            margin-left: 0px!important;
-            margin-right: 0px!important;
-        }
-        /* .mx-5 {
-            margin: 2.5px !important;
-        } */
-        .off,
-        .store-address .strong,
-        a.nav-link {
-            font-size: 2.5rem;
-        }
-        .store-address span.c-green {
-            font-size: 2.5rem;
-        }
-        .cc-img {
-            height: 15.5rem;
-        }
-        .price p del,
-        .shop-by-category strong {
-            font-size: 3.2rem;
-        }
-        .feature-card-name {
-            font-size: 2.8rem;
-        }
-        .price p strong,
-        .feature-item {
-            font-size: 4rem;
-            letter-spacing: .6px;
-        }
-        .order-btn {
-            font-size: 2.6rem;
-            width: 50px;
-        }
-        .green,
-        h4 {
-            font-size: 6.125rem;
-        }
-        .view-all-btn {
-            width: 16.375rem;
-            font-size: 2.7rem;
-        }
-        .special-offer em {
-            font-size: 2.875rem;
-        }
-        .lead-product {
-            font-size: 2.7rem;
-        }
-        .review,
-        .footer .h5,
-        .date,
-        .user {
-            font-size: 3rem;
-        }
-        .story-item-data {
-            font-size: 3.6rem;
-        }
-        a.read-more:link,
-        a.read-more:visited {
-            font-size: 3rem;
-        }
-        .stories .card-title {
-            font-size: 3rem;
-        }
-        .data-search {
-            font-size: 3rem;
-        }
-        .footer a {
-            font-size: 2rem;
-        }
-        .join-links {
-            width: 3.354vw;
-        }
-        .copyright {
-            font-size: 2.3rem;
-        }
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    overflow-x: hidden;
+    font-size: 0.833vw;
+    /* border: 1px solid black; */
+}
+
+.nav-1 {
+    z-index: 9999;
+}
+
+.nav-1 div.navbar-expand-md {
+    width: 85%;
+}
+
+.nav-2 {
+    margin-top: 5rem;
+}
+
+.nav-2 .products {
+    width: 70%;
+}
+
+.navbar-toggler {
+    border: 1px solid transparent;
+    margin: 4px;
+}
+
+.navbar-toggler span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.search {
+    width: 47rem;
+    height: 2.500vw;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}
+
+.search input {
+    width: 44rem !important;
+    height: 100%;
+}
+
+.search button img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.search input[type=text],
+.search input[placeholder] {
+    font-size: 1rem;
+    letter-spacing: .04rem;
+    border: none;
+    background: #f1f1f1;
+}
+
+.search button {
+    width: 3rem;
+}
+
+.search button:hover {
+    background: #0b7dda;
+}
+
+.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.date,
+.copyright,
+.search:-ms-input-placeholder,
+.search input::placeholder {
+    color: #BBBBBB;
+    opacity: 1;
+}
+
+.sc-top {
+    top: 40% !important;
+}
+
+.arrow {
+    top: 45%;
+    width: 2.396vw;
+    height: 2.396vw;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px #00000012;
+    transform: translateY(-50%);
+}
+
+.back {
+    left: 1.7%;
+}
+
+.forward {
+    right: 1.7%;
+}
+
+.shop-by-category .back {
+    left: 0.5%;
+}
+
+.shop-by-category .forward {
+    right: 0.5%;
+}
+
+.c-green {
+    color: #3BD28C;
+}
+
+.view-all-btn {
+    width: 7.375rem;
+    height: 100%;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #3BD28C;
+    padding: 7px;
+    border: currentColor;
+    border-radius: 22px;
+    transition: all 0.3s ease 0s;
+}
+
+.view-all-btn:hover {
+    cursor: pointer;
+    background-color: #2ec780;
+}
+
+.count {
+    background-color: #FFBB44;
+    height: auto;
+    width: 0.729vw;
+    font: normal normal 600 .625rem "Poppins";
+    border-radius: 50%;
+    top: 0%;
+    left: 25%;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.border-20px {
+    border-radius: 20px;
+}
+
+header {
+    background: url(/img/top-main-ad-section/top-main-ad-section-bg.svg) center;
+}
+
+header p.bold {
+    font: normal normal 300 5rem "Poppins";
+}
+
+.lead-brand {
+    font: normal normal normal 1.25rem "Poppins";
+}
+
+.footer-brand img,
+.navbar-brand img {
+    width: 11.875vw;
+}
+
+.store-location {
+    width: auto;
+    border-right: 1px solid grey;
+}
+
+.store-img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.store-img .store-address img,
+.down-arrow-black-btn {
+    width: 1rem;
+}
+
+.square-arrow-right,
+.square-arrow-left {
+    top: 40%;
+    width: 2.604vw;
+}
+
+.ad-side-pic {
+    width: 10.978rem;
+    top: 10%;
+    right: -3.5%;
+}
+
+.ad-bottom-pic {
+    left: 35%;
+    width: 13.594vw;
+}
+
+.category-cards .card,
+.product .card,
+.shop-by-category .card,
+.top-brands,
+.stories-cards .card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px #00000008;
+}
+
+.cc-img {
+    height: 4.5rem;
+}
+
+.location p {
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+}
+
+.store-address .text-muted {
+    font: normal normal 400 0.8rem "Poppins";
+}
+
+.store-address .strong {
+    font: normal normal 400 .75rem "Poppins";
+    letter-spacing: 0.28px;
+}
+
+.services-items li img,
+.store-address h2 img,
+.location img {
+    width: 0.652vw;
+}
+
+.my-profile-data-svg {
+    width: 1.042vw;
+    height: 0.833vw;
+}
+
+span.sale {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #3BD28C;
+}
+
+.order-btn {
+    width: 14.563rem;
+    background-color: #FFBB44;
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 32px;
+    transition: all 0.3s ease 0s;
+}
+
+.order-btn:hover {
+    color: #fff;
+    background: #ffc70f;
+}
+
+footer ul li a {
+    text-decoration: none;
+    margin: 7px auto;
+    display: block;
+}
+
+.main {
+    width: 36.354vw;
+}
+
+.main-body {
+    width: 87.813vw;
+}
+
+h4 {
+    font: normal normal bold 3.125rem "Poppins";
+}
+
+.off {
+    display: block;
+    background-color: #E1FFF1;
+    width: 80px;
+    height: 32px;
+    font: normal normal 500 0.875rem "Poppins";
+    color: #3BD28C;
+    border-radius: 17px;
+    padding: 1px;
+    line-height: 10px;
+}
+
+.item-pic {
+    width: 11.938rem;
+    height: 11.938rem;
+    display: flex;
+    align-items: center !important;
+}
+
+.item-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.feature-card-name {
+    font: normal 500 0.875rem "Poppins";
+    letter-spacing: 0.56px;
+    color: #3BD28C;
+}
+
+.feature-item {
+    font: normal normal 500 1.25rem "Poppins";
+}
+
+.item-details li {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.item-details li img {
+    width: 1.25rem;
+}
+
+.price p del {
+    font: normal normal normal 0.833vw "Poppins";
+    color: #555555;
+}
+
+.grey {
+    filter: contrast(0%);
+}
+
+.add-cart-btn {
+    font: normal normal 500 1.125rem "Poppins";
+    background-color: #ffbb44;
+    border-radius: 22px;
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    margin: 5px;
+}
+
+.add-cart-btn img {
+    width: 1.313rem;
+}
+
+.add-cart-btn:hover {
+    background-color: #ffb331;
+}
+
+.special-offer {
+    background-color: #3BD28C;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.special-offer em {
+    font: italic normal 400 1.875rem "Poppins";
+}
+
+.offer-product {
+    font: normal normal 300 5rem "Poppins";
+    z-index: 100;
+}
+
+.offer-percentage {
+    font: normal normal 900 5rem "Poppins";
+}
+
+.special-offer-card {
+    line-height: 2vw;
+    top: 50%;
+    transform: translate(10%, -50%);
+    left: 0;
+}
+
+.offer-on {
+    width: 43.357vw;
+    margin-right: 10%;
+}
+
+.top-brands li {
+    filter: grayscale(100%);
+    opacity: 60%;
+}
+
+.date,
+.user {
+    font: normal normal 400 0.833vw "Poppins";
+}
+
+.user {
+    color: #555555;
+}
+
+.review {
+    font: normal normal 400 0.833vw "Poppins";
+    color: #888888;
+}
+
+.story-item-data {
+    font: normal normal 700 1.458vw "Poppins";
+    letter-spacing: 0px;
+}
+
+a.read-more:link,
+a.read-more:visited {
+    font: normal normal 500 0.938vw "Poppins";
+    letter-spacing: 0.36px;
+    color: #3BD28C;
+}
+
+a.read-more:hover,
+a.read-more:active {
+    text-decoration: none;
+}
+
+.works-def .card {
+    width: 27vw;
+    background-color: transparent;
+}
+
+.works-def .card .font-weight-bold {
+    font: normal normal 600 1.563vw "Poppins";
+    letter-spacing: 0.6px;
+}
+
+.data-search {
+    width: 75%;
+    font: normal normal normal 0.938vw "Poppins";
+    letter-spacing: 0px;
+    color: #888888;
+}
+
+.copyright {
+    font: normal normal normal 0.833vw/19px "Poppins";
+}
+
+.green {
+    color: #3BD28C;
+    font-size: 3.125rem;
+}
+
+.works-def .card img {
+    max-width: 4.039vw !important;
+}
+
+.top-brands li {
+    width: 9.375rem;
+}
+
+.app-redirects {
+    width: 9rem;
+}
+
+.join-links {
+    width: 1.354vw;
+}
+
+.footer p {
+    font: normal normal normal 1.125rem "Poppins";
+    letter-spacing: 0px;
+    color: #888888;
+}
+
+.price p strong {
+    font-size: 2rem;
+}
+
+.services-items-btn {
+    display: none;
+}
+
+.footer a {
+    font: normal normal normal 0.938vw "Poppins";
+    color: #888888;
+}
+
+.footer ul li img {
+    height: 0.938vw;
+}
