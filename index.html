@@ -31,51 +31,45 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css " rel="stylesheet " integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC " crossorigin="anonymous ">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
-
-
     <link rel="stylesheet " href="css/style.css ">
     <link rel="stylesheet " href="css/queries.css ">
+
 </head>
 
 <body>
-
-    <nav class="container-fluid navbar position-fixed top-0 nav-1 bg-white navbar-light d-flex justify-content-between flex-md-nowrap px-5 p-1 py-sm-2 py-md-3 ">
-
-        <a href="# " class="navbar-brand ">
-            <img src="img/header/logo.svg " alt=" ">
+    <nav class="container-fluid nav-1 navbar navbar-expand-md navbar-light justify-content-between align-items-center position-fixed top-0 bg-white">
+        <a href="# " class="navbar-brand mx-5">
+            <img src="img/header/logo.png " alt=" ">
         </a>
+        <button class="navbar-toggler mx-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-        <div class="navbar-expand-md">
-            <button class="navbar-toggler d-block d-md-none btn" data-bs-toggle="collapse " data-target="my-profile ">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="navbar-nav d-none d-md-flex flex-column-reverse flex-md-row justify-content-between" data-bs-toggle="collapse " id="my-profile ">
-                <div class="location d-flex flex-nowrap align-items-center justify-content-center mx-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav d-flex align-items-center justify-content-around w-100 mx-5" data-bs-toggle="collapse " id="my-profile">
+                <div class="location d-flex flex-nowrap">
                     <img src="img/header/location-mark.svg " alt=" ">
-                    <p class="my-0 mx-1 ">56, Street Road Banglore... </p>
+                    <p class="my-0 mx-1 text-nowrap">56, Street Road Banglore... </p>
                     <img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
                 </div>
 
-                <form class="search form-inline d-flex mx-auto justify-content-center pb-2 pb-md-0 ">
-                    <input class="form-control bg-light " type="search " placeholder="Search groceries and more... " aria-label="Search ">
-                    <button class="btn p-0 " type="submit "><img src="img/header/Group 50801@2x.png " alt=" "></button>
+                <form class="search form-inline d-flex">
+                    <input class="form-control bg-light border border-0" type="search " placeholder="Search groceries and more... " aria-label="Search ">
+                    <button class="btn p-0" type="submit "><img src="img/header/Group 50801@2x.png" alt=" " class="h-100"></button>
                 </form>
 
-                <ul class="navbar-nav align-items-center d-md-flex d-flex mx-auto ">
-                    <li class="nav-items position-relative mx-auto ">
+                <ul class="navbar-nav profile align-items-center justify-content-between d-flex text-nowrap">
+                    <li class="nav-items position-relative mx-auto">
                         <a href="# " class="nav-link d-flex align-items-center ">
                             <img src="img/header/heart.svg " alt=" " class="my-profile-data-svg mx-1 ">
                             <div class="count d-flex align-items-center justify-content-center position-absolute ">2</div>
-                            <p class="m-0 text-dark ">Wishlist</p>
+                            <p class="m-0 text-dark">Wishlist</p>
                         </a>
                     </li>
                     <li class="nav-items mx-auto ">
                         <a href="# " class="nav-link d-flex flex-nowrap align-items-center ">
                             <img src="img/header/profile.svg " alt=" " class="my-profile-data-svg mx-1 ">
-                            <p class="m-0 text-dark "> My Account</p>
+                            <p class="m-0 text-dark text-nowrap"> My Account</p>
                             <img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
                         </a>
                     </li>
@@ -89,68 +83,68 @@
                 </ul>
             </div>
         </div>
-
     </nav>
-    <nav class="navbar navbar-light d-flex nav-2 justify-content-between justify-content-md-start align-items-center  px-5 mt-5 pt-5">
+
+
+    <nav class=" navbar navbar-expand-md navbar-light justify-content-start align-items-center nav-2 bg-white mx-5 px-3">
         <div class="d-flex align-items-center store-location border-0 w-auto ">
-            <img src="img/header/address-logo.png " alt=" " class="mx-2 ">
-            <div class="store-address ">
-                <p class="m-0 text-muted ">Store Located :</p>
+            <div class="store-img">
+                <img src="img/header/address-logo.png " alt=" " class="w-100 h-100 d-xl-block d-none ">
+            </div>
+            <div class="store-address mx-3">
+                <p class="m-0 text-muted d-none d-md-flex">Store Located :</p>
                 <a href="# " class="text-decoration-none m-0 strong text-dark ">R.T Nagar, Bangalore...<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn "><span class="c-green mx-2 ">More Info</span></a>
             </div>
-
         </div>
-        <div class="navbar-expand-md">
-            <button class="navbar-toggler d-block d-md-none btn" data-bs-toggle="collapse " data-target="my-profile ">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <ul class="navbar-nav d-none d-md-flex justify-content-md-around collapse" id="items" aria-labelledby="itemsLabel" aria-hidden="true">
-                <li class="nav-items">
-                    <a href=" " class="nav-link align-items-center text-dark ">
-                        Vegetables<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
+
+        <div class="d-flex justify-content-between products mx-5" id="items" aria-labelledby="itemsLabel" aria-hidden="true">
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
+                        Vegetables
+                        <img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
                     </a>
-                </li>
-                <li class="nav-items ">
-                    <a href=" " class="nav-link align-items-center text-dark ">
+            </p>
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
                         Fruits<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
                     </a>
-                </li>
-                <li class="nav-items ">
-                    <a href=" " class="nav-link align-items-center text-dark ">
+            </p>
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
                         Dairy & Eggs<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
                     </a>
-                </li>
-                <li class="nav-items ">
-                    <a href=" " class="nav-link align-items-center text-dark ">
+            </p>
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
                         Bevarages<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
-                    </a>
-                </li>
-                <li class="nav-items ">
-                    <a href=" " class="nav-link align-items-center text-dark ">
+                </a>
+            </p>
+
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
                         Snacks<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
-                    </a>
-                </li>
-                <li class="nav-items ">
-                    <a href=" " class="nav-link align-items-center text-dark ">
+                        </a>
+            </p>
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
                         Personal Cares<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
-                    </a>
-                </li>
-                <li class="nav-items ">
-                    <a href=" " class="nav-link align-items-center text-dark ">
+                        </a>
+            </p>
+            <p class="nav-items">
+                <a href=" " class="nav-link align-items-center text-dark text-center">
                         Baby Cares<img src="img/svg/Arrow-down.svg " alt=" " class="down-arrow-black-btn ">
-                    </a>
-                </li>
-            </ul>
+                        </a>
+            </p>
         </div>
     </nav>
 
     <header class="container-fluid position-relative px-5 ">
         <div class="col-10 d-flex align-items-center justify-content-between mx-auto ">
-            <div class="d-block col-3 ">
+            <div class="d-block col-5 ">
                 <p class="bold ">Grocery
                     <span class="sale ">Sale 40% Off</span>
                 </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry rem Ipsum has been.</p>
+                <p class="lead-product col-9">Lorem Ipsum is simply dummy text of the printing and typesetting industry rem Ipsum has been.</p>
                 <button class="order-btn btn btn-lg btn-sm btn-warning rounded-pill px-4 py-2 ">ORDER NOW</button>
             </div>
             <div class="main d-flex justify-content-around ">
@@ -226,10 +220,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="arrow sc-top back d-flex justify-content-center align-items-center position-absolute ">
+                <div class="arrow sc-top back d-none d-md-flex justify-content-center align-items-center position-absolute ">
                     <img src="img/svg/chevron-back-outline.svg " alt=" ">
                 </div>
-                <div class="arrow sc-top forward d-flex justify-content-center align-items-center position-absolute ">
+                <div class="arrow sc-top forward d-none d-md-flex justify-content-center align-items-center position-absolute ">
                     <img src="img/svg/chevron-forward-outline.svg " alt=" ">
                 </div>
             </div>
@@ -342,10 +336,10 @@
                         </div>
                     </div>
 
-                    <div class="arrow back d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow back d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-back-outline.svg " alt=" ">
                     </div>
-                    <div class="arrow forward d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow forward d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-forward-outline.svg " alt=" ">
                     </div>
 
@@ -459,10 +453,10 @@
                         </div>
                     </div>
 
-                    <div class="arrow back d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow back d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-back-outline.svg " alt=" ">
                     </div>
-                    <div class="arrow forward d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow forward d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-forward-outline.svg " alt=" ">
                     </div>
 
@@ -594,10 +588,10 @@
                         </div>
                     </div>
 
-                    <div class="arrow back d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow back d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-back-outline.svg " alt=" ">
                     </div>
-                    <div class="arrow forward d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow forward d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-forward-outline.svg " alt=" ">
                     </div>
 
@@ -727,10 +721,10 @@
                         </div>
                     </div>
 
-                    <div class="arrow back d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow back d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-back-outline.svg " alt=" ">
                     </div>
-                    <div class="arrow forward d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow forward d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-forward-outline.svg " alt=" ">
                     </div>
 
@@ -750,7 +744,7 @@
                         <div class="card ">
                             <img src="img/stories/salad.png " alt=" " class="card-img-top ">
                             <div class="card-body ">
-                                <p class="user mb-1 ">Vijay Vasu Reddy</p>
+                                <p class="user mb-1">Vijay Vasu Reddy</p>
                                 <p class="date ">20 Dec, 2020</p>
                                 <p class="story-item-data ">Healthy & fresh vegetable salad</p>
                                 <p class="review ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.It is a long established fact.</p>
@@ -784,10 +778,10 @@
                     </div>
 
 
-                    <div class="arrow back d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow back d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-back-outline.svg " alt=" ">
                     </div>
-                    <div class="arrow forward d-flex justify-content-center align-items-center position-absolute ">
+                    <div class="arrow forward d-none d-md-flex justify-content-center align-items-center position-absolute ">
                         <img src="img/svg/chevron-forward-outline.svg " alt=" ">
                     </div>
 
@@ -842,7 +836,7 @@
             <div class="row-cols-md-5 row-cols-1 d-md-flex justify-content-md-around justify-content-center mx-5 py-3 mb-3 ">
                 <div class="col-md-2 col-4 mx-auto ">
                     <a href="# " class="footer-brand mb-3 d-block ">
-                        <img src="img/header/logo.svg " alt=" ">
+                        <img src="img/header/logo.png " alt=" ">
                     </a>
                     <ul class="card border-0 list-unstyled ">
                         <li>
@@ -956,7 +950,7 @@
                 <div class="col-3 text-md-start text-center mx-auto ">
                     <div class="row ">
                         <div class="h5 ">Download Now</div>
-                        <div class="row w-auto d-flex py-3 ">
+                        <div class="row w-auto d-flex py-3 app-redirects-logos">
                             <div class="app-redirects col-4 ">
                                 <img src="img/footer/ios-app.png " alt=" " class="w-100 ">
                             </div>
@@ -990,6 +984,12 @@
     <div class="copyright container-fluid text-center text-muted py-4 border mx-auto ">
         Copyright 2021 Grocery All Rights Reserved.
     </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
 </body>
 
 </html>
