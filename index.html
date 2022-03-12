@@ -34,6 +34,7 @@
     <link rel="stylesheet " href="css/style.css ">
     <link rel="stylesheet " href="css/queries.css ">
 
+
 </head>
 
 <body>
@@ -41,11 +42,11 @@
         <a href="# " class="navbar-brand mx-5">
             <img src="img/header/logo.png " alt=" ">
         </a>
-        <button class="navbar-toggler mx-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button onclick="nav()" class="navbar-toggler mx-5" type="button" data-toggle="collapse" id="button_click" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="show_navbar">
             <div class="navbar-nav d-flex align-items-center justify-content-around w-100 mx-5" data-bs-toggle="collapse " id="my-profile">
                 <div class="location d-flex flex-nowrap">
                     <img src="img/header/location-mark.svg " alt=" ">
@@ -986,7 +987,16 @@
     </div>
 
 
+    <script>
+        const buttonClick = document.getElementById("button_click");
+        const showNavbar = document.getElementById("show_navbar");
+        // buttonClick.addEventListener("click", nav);
 
+        function nav() {
+            console.log('under this');
+            showNavbar.classList.toggle('d-block');
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
