@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* :root { */
-
-
-/* } */
-
 * {
     margin: 0;
     padding: 0;
@@ -22,15 +16,26 @@
     width: 85%;
 }
 
-.nav-2 div.navbar-expand-md {
-    width: 75%;
+.nav-2 {
+    margin-top: 5rem;
 }
 
+.nav-2 .products {
+    width: 70%;
+}
 
-/* -------------------------------    SEARCH BUTTON    ------------------------------------- */
+.navbar-toggler {
+    border: 1px solid transparent;
+    margin: 4px;
+}
+
+.navbar-toggler span {
+    display: inline-block;
+    font-size: 12px;
+}
 
 .search {
-    width: 39.167vw;
+    width: 47rem;
     height: 2.500vw;
     background: #FCFCFC 0% 0% no-repeat padding-box;
     border-radius: 4px;
@@ -76,9 +81,6 @@
     opacity: 1;
 }
 
-
-/* ---------------------------------    ROUND ARROW BTN    ------------------------------------------ */
-
 .sc-top {
     top: 40% !important;
 }
@@ -113,9 +115,6 @@
     color: #3BD28C;
 }
 
-
-/* --------------------------------------------view All Btn ------------------------------------------------- */
-
 .view-all-btn {
     width: 7.375rem;
     height: 100%;
@@ -133,21 +132,15 @@
     background-color: #2ec780;
 }
 
-
-/* --------------------------------------------------------------------------------------------------------- */
-
 .count {
     background-color: #FFBB44;
     height: auto;
     width: 0.729vw;
-    font-size: 0.521vw;
+    font: normal normal 600 .625rem "Poppins";
     border-radius: 50%;
-    top: 10%;
+    top: 0%;
     left: 25%;
 }
-
-
-/* --------------------------------------------------------------------------------------------------------- */
 
 body {
     width: 100vw;
@@ -167,6 +160,10 @@ header p.bold {
     font: normal normal 300 5rem "Poppins";
 }
 
+.lead-brand {
+    font: normal normal normal 1.25rem "Poppins";
+}
+
 .footer-brand img,
 .navbar-brand img {
     width: 11.875vw;
@@ -177,12 +174,12 @@ header p.bold {
     border-right: 1px solid grey;
 }
 
-.store-location img {
-    width: 1.357vw;
-    height: 1.357vw;
+.store-img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
-.store-address img,
+.store-img .store-address img,
 .down-arrow-black-btn {
     width: 1rem;
 }
@@ -217,25 +214,19 @@ header p.bold {
     height: 4.5rem;
 }
 
-
-/* ---------------------------------------------font-sizes-------------------------------------- */
-
 .location p {
     font-size: 1rem;
     letter-spacing: 0.02rem;
 }
 
 .store-address .text-muted {
-    font-size: 0.75rem;
+    font: normal normal 400 0.8rem "Poppins";
 }
 
 .store-address .strong {
-    font: normal normal normal .75rem/1rem "Poppins";
+    font: normal normal 400 .75rem "Poppins";
     letter-spacing: 0.28px;
 }
-
-
-/* ----------------------------------------------images sizes----------------------------------- */
 
 .services-items li img,
 .store-address h2 img,
@@ -358,7 +349,6 @@ h4 {
 }
 
 .add-cart-btn:hover {
-    cursor: pointer;
     background-color: #ffb331;
 }
 
